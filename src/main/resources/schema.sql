@@ -1,5 +1,3 @@
---The script to initialize the schema was sourced from the Spring Batch Core dependency: org.springframework.batch.core.
-
 -- Create the database if it doesn't exist
 CREATE DATABASE IF NOT EXISTS pdfmanagement;
 
@@ -18,4 +16,3 @@ CREATE TABLE IF NOT EXISTS documents (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- Timestamp of creation
     tags VARCHAR(255)                     -- Store tags as a comma-separated string
 );
-
